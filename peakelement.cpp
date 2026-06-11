@@ -13,7 +13,7 @@ int peakelement(int arr[],int size){
     }
       mid=s+(e-s)/2;
     }
-    return mid;
+    return s;
 }
 int main(){
 
