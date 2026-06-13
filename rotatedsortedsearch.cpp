@@ -5,7 +5,7 @@ int pivot(int arr[],int size){
 int mid;
     while(s<e){
         mid=s+(e-s)/2;
-        if(arr[mid]>arr[0]){
+        if(arr[mid]>=arr[e]){
             s=mid+1;
         }
         else{
