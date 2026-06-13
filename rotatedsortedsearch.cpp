@@ -39,7 +39,7 @@ int main(){
     int arr[6]={7,8,1,2,3,4};
     int n=pivot(arr,6);
     if(arr[n]<target && arr[5]>target){
-        //BS on second line
+       
     return binarysearch(arr,6,n,5,3);
     }
     else{
