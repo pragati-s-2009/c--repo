@@ -7,6 +7,8 @@ Right now, I have these basics:
 * **prime_no.cpp** - A simple script that checks if a number is prime. It uses a loop and some math logic I learned.
 * **binary_search.cpp** - My first algorithm! It finds a number in a sorted list way faster than just looking one by one(just came to know about time complexity hehe).
 * **binary_first_last**- It finds the fisrt and last position of a no which is repeted in array.
+* ** peakelement**-finds the peak of mountain array.
+* **pivotarray**-finds the pivot element.
 ### My Setup
 * OS: Windows
 * Compiler: G++
