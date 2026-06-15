@@ -9,6 +9,7 @@ Right now, I have these basics:
 * **binary_first_last**- It finds the fisrt and last position of a no which is repeted in array.
 * ** peakelement**-finds the peak of mountain array.
 * **pivotarray**-finds the pivot element.
+* **bookallocation** - tried a new problem ! was a bit tough .
 ### My Setup
 * OS: Windows
 * Compiler: G++
