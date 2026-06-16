@@ -25,7 +25,7 @@ int main() {
             e = mid - 1;  // Go left to find an earlier one
         } 
         else {
-            s = mid + 1;  // It was good, go right
+            s = mid + 1;  
         }
     }
 
