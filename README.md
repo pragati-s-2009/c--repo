@@ -10,6 +10,7 @@ Right now, I have these basics:
 * ** peakelement**-finds the peak of mountain array.
 * **pivotarray**-finds the pivot element.
 * **bookallocation** - tried a new problem ! was a bit tough .
+* practicing leetcode from now on !! griping on things.
 ### My Setup
 * OS: Windows
 * Compiler: G++
