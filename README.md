@@ -11,6 +11,7 @@ Right now, I have these basics:
 * **pivotarray**-finds the pivot element.
 * **bookallocation** - tried a new problem ! was a bit tough .
 * practicing leetcode from now on !! griping on things.
+* **painters partion **-very tiering.
 ### My Setup
 * OS: Windows
 * Compiler: G++
