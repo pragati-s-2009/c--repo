@@ -16,7 +16,6 @@ bool possible(int arr[],int n,int m,int mid){
             }
 
         }
-        
 
     }
 return true;
