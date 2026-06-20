@@ -14,9 +14,7 @@ bool possible(int arr[],int n,int m,int mid){
             if(painter>n){
                 return false;
             }
-
         }
-
     }
 return true;
 }
@@ -34,7 +32,6 @@ int paint(int arr[],int n,int m){
         if(possible(arr,n,m,mid)){
             ans=mid;
             e=mid-1;
-
         }
         else{
             s=mid+1;
