@@ -47,12 +47,12 @@ int allocateBooks(int arr[], int n, int m) {
             s = mid + 1;
         }
     }
-
     return ans;
 }
 
 int main() {
     int arr[] = {50, 20,70, 30, 40};
+    
     int n = 5;
     int m = 2;
 
