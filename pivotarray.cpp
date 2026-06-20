@@ -20,4 +20,6 @@ int main(){
     int size=6;
     cout<<"index of pivot array "<<pivot(arr,6);
 
+    return 0;
+
 }
