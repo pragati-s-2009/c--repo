@@ -1,0 +1,44 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+bool possible(int stalls[], int n, int k, int mid) {
+    int cows = 1;
+    int lastPos = stalls[0];
+
+    for (int i = 1; i < n; i++) {
+        if (stalls[i] - lastPos >= mid) {
+            cows++;
+            lastPos = stalls[i];
+
+            if (cows == k)
+                return true;
+        }
+    }
+    return false;
+}
+
+int main() {
+    int stalls[] = {1, 2, 4, 8, 9};
+    int n = 5;
+    int k = 3;
+
+    sort(stalls, stalls + n);
+
+    int s = 0;
+    int e = stalls[n - 1] - stalls[0];
+    int ans = -1;
+
+    while (s <= e) {
+        int mid = s + (e - s) / 2;
+
+        if (possible(stalls, n, k, mid)) {
+            ans = mid;
+            s = mid + 1;
+        } else {
+            e = mid - 1;
+        }
+    }
+
+    cout << ans;
+}
