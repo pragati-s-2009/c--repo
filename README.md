@@ -13,7 +13,7 @@ Right now, I have these basics:
 * practicing leetcode from now on !! griping on things.
 * **painters partion **-very tiering.
 * **agrresive cows**-tried agrressive cows,quite similar to book allocation and painters partition. stll tough!
-*  
+* **selection sorting**- onto new topic!
 ### My Setup
 * OS: Windows
 * Compiler: G++
