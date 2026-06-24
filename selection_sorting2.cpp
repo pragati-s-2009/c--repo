@@ -7,7 +7,6 @@ void sort(int arr[],int n){
             if(arr[a]<arr[j]){
                 a=j;
             }
-
         }
         swap(arr[a],arr[i]);
     }
@@ -26,7 +25,7 @@ int main() {
    
     sort(arr, n);
 
-    cout << "Sorted array:   ";
+    cout << "Sorted array in decending order:   ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
