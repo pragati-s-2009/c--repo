@@ -14,6 +14,7 @@ Right now, I have these basics:
 * **painters partion **-very tiering.
 * **agrresive cows**-tried agrressive cows,quite similar to book allocation and painters partition. stll tough!
 * **selection sorting**- onto new topic!
+* **bubble sorting **- easiest from the recent topics.
 ### My Setup
 * OS: Windows
 * Compiler: G++
